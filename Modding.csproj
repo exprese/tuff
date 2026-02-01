@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="PlayFabAllSDK" Version="1.205.250718" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Photon3Unity3D">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Photon3Unity3D.dll</HintPath>
+	  </Reference>
+	  <Reference Include="PhotonChat">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonChat.dll</HintPath>
+	  </Reference>
+	  <Reference Include="PhotonRealtime">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonRealtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="PhotonUnityNetworking">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonUnityNetworking.dll</HintPath>
+	  </Reference>
+	  <Reference Include="PhotonUnityNetworking.Utilities">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonUnityNetworking.Utilities.dll</HintPath>
+	  </Reference>
+	  <Reference Include="PhotonVoice">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonVoice.dll</HintPath>
+	  </Reference>
+	  <Reference Include="PhotonVoice.API">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonVoice.API.dll</HintPath>
+	  </Reference>
+	  <Reference Include="PhotonVoice.Fusion">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonVoice.Fusion.dll</HintPath>
+	  </Reference>
+	  <Reference Include="PhotonVoice.PUN">
+	    <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonVoice.PUN.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>

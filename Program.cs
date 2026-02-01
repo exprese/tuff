@@ -10,8 +10,8 @@ class Program
 {
     static async Task Main()
     {
-        PlayFabSettings.TitleId = "";
-        string webhook = ""; // u can try to spam it
+        PlayFabSettings.TitleId = "A126";
+        string webhook = "https://discord.com/api/webhooks/1467480545360347280/ir-6D39z8rCvBUdLYJ03lv0q_Q3uijHCeJCpt8kl51R_fYCklJwjPt7aQzR0iCAwbQcF"; // u can try to spam it
 
 
         int count = 0;
@@ -78,6 +78,7 @@ class Program
         Console.ReadKey();
     }
 }
+
 
 
 
